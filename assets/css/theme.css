@@ -1,0 +1,63 @@
+:root {
+  --bg: #f3f6fb;
+  --panel: #ffffff;
+  --panel-alt: #eef3fb;
+  --sidebar: #1f2430;
+  --sidebar-soft: #2a3344;
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+  --primary: #2f6fed;
+  --primary-soft: rgba(47, 111, 237, 0.12);
+  --text: #1e293b;
+  --text-soft: #64748b;
+  --success: #18a957;
+  --warning: #f6b100;
+  --danger: #e63946;
+  --shadow: 0 10px 26px rgba(15, 23, 42, 0.08);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Tajawal", "Segoe UI Variable", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+
+/* Glass V2 global visual tokens — styling only */
+:root {
+  --bg: #060814;
+  --panel: rgba(25, 33, 61, .70);
+  --panel-alt: rgba(14, 21, 42, .66);
+  --sidebar: rgba(8, 13, 29, .80);
+  --sidebar-soft: rgba(18, 25, 50, .78);
+  --sidebar-border: rgba(188, 199, 255, .13);
+  --primary: #7a6cff;
+  --primary-soft: rgba(122, 108, 255, .17);
+  --text: #f3f6ff;
+  --text-soft: #9eaccb;
+  --success: #35d99b;
+  --warning: #ffbf56;
+  --danger: #ff6680;
+  --shadow: 0 24px 60px rgba(0,0,0,.27);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #eef3ff;
+    --panel: rgba(255,255,255,.66);
+    --panel-alt: rgba(245,248,255,.62);
+    --sidebar: rgba(255,255,255,.72);
+    --sidebar-soft: rgba(242,246,255,.70);
+    --sidebar-border: rgba(62,78,119,.12);
+    --primary: #6656f4;
+    --primary-soft: rgba(102,86,244,.12);
+    --text: #17213d;
+    --text-soft: #687490;
+    --shadow: 0 20px 48px rgba(63,80,122,.10);
+  }
+}
